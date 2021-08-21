@@ -313,7 +313,7 @@
                        parameterId="TransposeAmount" middlePosition="0" max="24" useUndoManager="1"
                        tooltip="TRANSPOSE" pluginParameterName="TRANSPOSE" parentComponent="PnlFmTransposeMono"
                        stepSize="1" isPluginParameter="1" showTextBox="0" scaleFactor="0.3"
-                       min="-24" showValuePopup="Above"/>
+                       min="-24" showValuePopup="Above" defaultValue="-24"/>
           </Component>
           <Component type="ScriptButton" id="BtnGeneratorSwitch" x="450" y="100" parentComponent="MainDisTab1"
                      width="40" height="40" scaleFactor="0.3" tooltip="SWITCH GENERATOR"
@@ -509,11 +509,11 @@
                    height="20"/>
         <Component type="ScriptSlider" id="KnbUnisonVoices" x="10" y="15" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
                    numStrips="101" height="60" width="60" processorId="Syntesizer Group1"
-                   parameterId="UnisonoVoiceAmount" stepSize="1" middlePosition="8"
+                   parameterId="UnisonoVoiceAmount" stepSize="1" middlePosition="7.5"
                    max="16" defaultValue="6" useUndoManager="1" tooltip="UNISON VOICES"
                    pluginParameterName="UNISON VOICES" suffix="Voices" isPluginParameter="1"
                    showTextBox="0" scaleFactor="0.3" parentComponent="PnlUnison"
-                   showValuePopup="Above"/>
+                   showValuePopup="Above" min="1"/>
         <Component type="ScriptSlider" id="KnbUnisonDetune" x="80" y="15" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
                    numStrips="101" height="60" width="60" processorId="Syntesizer Group1"
                    parameterId="UnisonoDetune" middlePosition="3" max="6" defaultValue="0.36"
@@ -659,7 +659,7 @@
                    middlePosition="5.5" useUndoManager="1" tooltip="MAX GLIDE" pluginParameterName="MAX GLIDE"
                    parentComponent="PnlGlide" isPluginParameter="1" showTextBox="0"
                    scaleFactor="0.2" showValuePopup="Below" max="11" mode="Discrete"
-                   defaultValue="1" stepSize="1.0"/>
+                   defaultValue="1" stepSize="1"/>
         <Component type="ScriptLabel" id="LblGlideActivate" x="140" y="180" text="BYPASS"
                    fontName="GLOBALFONT" fontSize="8" height="20" width="80" parentComponent="PnlGlide"/>
         <Component type="ScriptButton" id="KnbGlideBypass" x="170" y="150" width="25"
