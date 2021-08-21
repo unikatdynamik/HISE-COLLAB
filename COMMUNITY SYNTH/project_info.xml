@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ProjectSettings>
+  <Name value="Synth"/>
+  <Version value="1.0.0"/>
+  <Description value=""/>
+  <BundleIdentifier value="com.synth.product"/>
+  <PluginCode value="Synt"/>
+  <EmbedAudioFiles value="0"/>
+  <EmbedImageFiles value="Yes"/>
+  <SupportFullDynamicsHLAC value="No"/>
+  <AdditionalDspLibraries value=""/>
+  <OSXStaticLibs value=""/>
+  <WindowsStaticLibFolder value=""/>
+  <ExtraDefinitionsWindows value="ENABLE_ALL_PEAK_METERS=1"/>
+  <ExtraDefinitionsOSX value="ENABLE_ALL_PEAK_METERS=1"/>
+  <ExtraDefinitionsIOS value="ENABLE_ALL_PEAK_METERS=1"/>
+  <ExtraDefinitionsLinux value="ENABLE_ALL_PEAK_METERS=1"/>
+  <AppGroupID value=""/>
+  <RedirectSampleFolder value=""/>
+  <AAXCategoryFX value="AAX_ePlugInCategory_Modulation"/>
+  <SupportMonoFX value="0"/>
+  <EnableMidiInputFX value="No"/>
+  <VST3Support value="No"/>
+  <UseRawFrontend value="No"/>
+  <ExpansionType value="Disabled"/>
+  <EncryptionKey value=""/>
+  <LinkExpansionsToProject value="No"/>
+</ProjectSettings>
