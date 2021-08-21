@@ -584,7 +584,7 @@
         <Component type="ScriptPanel" id="Panel12" x="-143" y="-7" parentComponent="BtnFmSynthSwitch"/>
       </Component>
       <Component type="ScriptPanel" id="PnlGlide" x="10" y="520" parentComponent="StaticPnl1"
-                 width="220" height="150" textColour="3137049491" itemColour2="3684408"
+                 width="220" height="200" textColour="3137049491" itemColour2="3684408"
                  itemColour="3684408" bgColour="16777215" popupOnRightClick="0">
         <Component type="ScriptPanel" id="Panel27" x="0" y="0" parentComponent="PnlGlide"
                    width="220" height="20" itemColour="4278190080" itemColour2="4278190080"
@@ -654,6 +654,19 @@
                    pluginParameterName="GLIDE BEND TIME" parentComponent="PnlGlide"
                    isPluginParameter="1" showTextBox="0" scaleFactor="0.3" min="-0.5"
                    showValuePopup="Below" max="0.5" suffix="%" mode="NormalizedPercentage"/>
+        <Component type="ScriptSlider" id="KnobGlideMaxGlide" x="20" y="140" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
+                   numStrips="101" height="40" width="40" processorId="Glide" parameterId="knbMaxGlide"
+                   middlePosition="5.5" useUndoManager="1" tooltip="MAX GLIDE" pluginParameterName="MAX GLIDE"
+                   parentComponent="PnlGlide" isPluginParameter="1" showTextBox="0"
+                   scaleFactor="0.2" showValuePopup="Below" max="11" mode="Discrete"
+                   defaultValue="1" stepSize="1.0"/>
+        <Component type="ScriptLabel" id="LblGlideActivate" x="140" y="180" text="BYPASS"
+                   fontName="GLOBALFONT" fontSize="8" height="20" width="80" parentComponent="PnlGlide"/>
+        <Component type="ScriptButton" id="KnbGlideBypass" x="170" y="150" width="25"
+                   height="25" filmstripImage="{PROJECT_FOLDER}UD BTN1.png" scaleFactor="0.2"
+                   processorId="Glide" parameterId="Bypass" parentComponent="PnlGlide"/>
+        <Component type="ScriptLabel" id="LblGlideActivate1" x="0" y="180" text="GLIDES"
+                   fontName="GLOBALFONT" fontSize="8" height="20" width="80" parentComponent="PnlGlide"/>
       </Component>
       <Component type="ScriptPanel" id="Panel20" x="350" y="200" parentComponent="StaticPnl1"
                  width="780" height="270" textColour="4278190080" enabled="0"
