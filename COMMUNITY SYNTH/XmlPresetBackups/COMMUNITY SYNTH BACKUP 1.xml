@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Processor Type="SynthChain" ID="COMMUNITY SYNTH" Bypassed="0" Gain="1"
-           Balance="0" VoiceLimit="64" KillFadeTime="20" IconColour="0"
+<Processor Type="SynthChain" ID="COMMUNITY SYNTH BACKUP 1" Bypassed="0"
+           Gain="1" Balance="0" VoiceLimit="64" KillFadeTime="20" IconColour="0"
            packageName="" BuildVersion="650">
   <ChildProcessors>
     <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
@@ -81,7 +81,7 @@
             <Control type="ScriptSlider" id="KnbZoom" value="1"/>
             <Control type="ScriptedViewport" id="PROGRESS TRACKER" value="4"/>
           </Content>
-          <UIData Source="COMMUNITY SYNTHUIData"/>
+          <UIData Source="COMMUNITY SYNTH BACKUP 1UIData"/>
         </Processor>
         <Processor Type="Transposer" ID="Transposer1" Bypassed="0" TransposeAmount="-24">
           <ChildProcessors/>
@@ -431,7 +431,7 @@
   </ChildProcessors>
   <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
   <macro_controls>
-    <macro name="LFO1" value="121.7296600341797" midi_cc="-1"/>
+    <macro name="LFO1" value="4.714100360870361" midi_cc="-1"/>
     <macro name="LFO2" value="0.0" midi_cc="-1"/>
     <macro name="LFO3" value="0.0" midi_cc="-1"/>
     <macro name="LFO4" value="0.0" midi_cc="-1"/>

@@ -3,17 +3,13 @@
 
 //NAMING CONVENTION
 
-//Sli = Slider
 //Knb = Knob
 //Btn = Button
+//Lbl = Label
+//Pnl = Panel	
 //Tbl = Table
 //Cmb = Combobox
-//Lbl = Label
 //Img = Image
-//Vie = Viewport
-//Pnl = Panel	
-//Awf = AudioWaveform
-//Slp = Sliderpack
 //Flt = FloatingTile
 
 //DynPnl = Dynamic panel
