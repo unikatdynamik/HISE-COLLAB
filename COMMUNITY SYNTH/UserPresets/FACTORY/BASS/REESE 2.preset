@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Preset Version="1.0.0">
+  <Content Processor="Interface">
+    <Control type="ScriptSlider" id="KnbUnisonVoices" value="6"/>
+    <Control type="ScriptSlider" id="KnbUnisonDetune" value="0.36"/>
+    <Control type="ScriptSlider" id="KnbUnisonSpead" value="111"/>
+    <Control type="ScriptButton" id="BtnFm" value="0"/>
+    <Control type="ScriptButton" id="BtnMono" value="0"/>
+    <Control type="ScriptButton" id="BtnGeneratorSwitch" value="0"/>
+    <Control type="ScriptSlider" id="KnbTranspose" value="-24"/>
+    <Control type="ScriptButton" id="Generator2Enable" value="0"/>
+    <Control type="ScriptSlider" id="Knob21" value="20"/>
+    <Control type="ScriptSlider" id="Knob22" value="20"/>
+    <Control type="ScriptTable" id="Table1" value="0" data=""/>
+    <Control type="ScriptTable" id="Table2" value="0" data="24..........9C...vO...f+.........vO"/>
+    <Control type="ScriptSlider" id="Knob5" value="0"/>
+    <Control type="ScriptSlider" id="Knob6" value="0"/>
+    <Control type="ScriptSlider" id="Knob7" value="0"/>
+    <Control type="ScriptSlider" id="Knob8" value="0.5"/>
+    <Control type="ScriptSlider" id="Knob9" value="0"/>
+    <Control type="ScriptSlider" id="Knob10" value="0"/>
+    <Control type="ScriptSlider" id="Knob11" value="0.5"/>
+    <Control type="ScriptSlider" id="Knob12" value="0"/>
+    <Control type="ScriptComboBox" id="ComboBox1" value="2"/>
+    <Control type="ScriptComboBox" id="ComboBox2" value="3"/>
+    <Control type="ScriptButton" id="Waveform2Enable" value="1"/>
+    <Control type="ScriptSlider" id="Knob13" value="0"/>
+    <Control type="ScriptSlider" id="Knob14" value="0"/>
+    <Control type="ScriptSlider" id="Knob15" value="0"/>
+    <Control type="ScriptSlider" id="Knob16" value="0.5"/>
+    <Control type="ScriptSlider" id="Knob17" value="0"/>
+    <Control type="ScriptSlider" id="Knob18" value="0"/>
+    <Control type="ScriptSlider" id="Knob19" value="0.5"/>
+    <Control type="ScriptSlider" id="Knob20" value="0"/>
+    <Control type="ScriptComboBox" id="ComboBox3" value="0"/>
+    <Control type="ScriptComboBox" id="ComboBox4" value="0"/>
+    <Control type="ScriptButton" id="Waveform2Enable1" value="1"/>
+    <Control type="ScriptLabel" id="LblUnisonVoices" value=""/>
+  </Content>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Preset>
