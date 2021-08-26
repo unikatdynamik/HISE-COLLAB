@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptPanel" id="PnlZoom" x="0" y="0" width="1600" height="800"
+             allowCallbacks="All Callbacks"/>
+  <Component type="ScriptPanel" id="PnlMain" x="0" y="0" width="1600" height="900">
+    <Component type="ScriptImage" id="GUI1" x="0" y="0" fileName="{PROJECT_FOLDER}GUI1.png"
+               width="1600" height="900" parentComponent="PnlMain"/>
+    <Component type="ScriptImage" id="GUI2" x="0" y="0" fileName="{PROJECT_FOLDER}GUI2.png"
+               width="1600" height="900" parentComponent="PnlMain" visible="0"/>
+    <Component type="ScriptPanel" id="TextLabelPnl1" x="60" y="80" width="1480"
+               height="740" textColour="16777215" itemColour2="0" itemColour="0"
+               bgColour="16777215" parentComponent="PnlMain">
+      <Component type="ScriptPanel" id="Panel2" x="540" y="200" parentComponent="TextLabelPnl1"
+                 width="150" height="300" borderRadius="50" visible="0"/>
+      <Component type="ScriptPanel" id="Panel3" x="790" y="200" parentComponent="TextLabelPnl1"
+                 width="150" height="300" borderRadius="50" visible="0"/>
+      <Component type="ScriptPanel" id="Panel7" x="690" y="130" parentComponent="TextLabelPnl1"
+                 width="100" height="110" borderRadius="40" itemColour="0" itemColour2="0"
+                 textColour="1543503871" visible="0"/>
+      <Component type="ScriptPanel" id="Panel4" x="590" y="230" parentComponent="TextLabelPnl1"
+                 width="300" height="30" borderRadius="120" itemColour="4278190080"
+                 itemColour2="4278190080" visible="0"/>
+      <Component type="ScriptPanel" id="Panel5" x="590" y="330" parentComponent="TextLabelPnl1"
+                 width="300" height="30" borderRadius="120" itemColour="4278190080"
+                 itemColour2="4278190080" visible="0"/>
+      <Component type="ScriptPanel" id="Panel6" x="590" y="430" parentComponent="TextLabelPnl1"
+                 width="300" height="30" borderRadius="120" itemColour="4278190080"
+                 itemColour2="4278190080" visible="0"/>
+    </Component>
+    <Component type="ScriptPanel" id="StaticPnl1" x="60" y="80" width="1480"
+               height="760" itemColour="0" itemColour2="0" textColour="16777215"
+               bgColour="16777215" parentComponent="PnlMain">
+      <Component type="ScriptFloatingTile" id="Keyboard" x="350" y="510" width="780"
+                 height="240" ContentType="Keyboard" bgColour="4284769380" itemColour="436207615"
+                 itemColour2="4294967295" textColour="4294951115" Data="{&#13;&#10;  &quot;KeyWidth&quot;: 52.0,&#13;&#10;  &quot;DisplayOctaveNumber&quot;: false,&#13;&#10;  &quot;LowKey&quot;: 48,&#13;&#10;  &quot;HiKey&quot;: 72,&#13;&#10;  &quot;CustomGraphics&quot;: true,&#13;&#10;  &quot;DefaultAppearance&quot;: false,&#13;&#10;  &quot;BlackKeyRatio&quot;: 0.699999988079071,&#13;&#10;  &quot;ToggleMode&quot;: false,&#13;&#10;  &quot;MidiChannel&quot;: 1,&#13;&#10;  &quot;UseVectorGraphics&quot;: false,&#13;&#10;  &quot;UseFlatStyle&quot;: false,&#13;&#10;  &quot;MPEKeyboard&quot;: false,&#13;&#10;  &quot;MPEStartChannel&quot;: 2,&#13;&#10;  &quot;MPEEndChannel&quot;: 16&#13;&#10;}"
+                 parentComponent="StaticPnl1"/>
+      <Component type="ScriptImage" id="KEYS COVER1" x="333" y="490" width="812"
+                 height="260" fileName="{PROJECT_FOLDER}KEYS COVER1.png" parentComponent="StaticPnl1"
+                 enabled="0"/>
+      <Component type="ScriptImage" id="KEYS COVER2" x="333" y="490" width="812"
+                 height="260" fileName="{PROJECT_FOLDER}KEYS COVER2.png" parentComponent="StaticPnl1"
+                 enabled="0" visible="0"/>
+      <Component type="ScriptPanel" id="PnlColor1" x="0" y="0" parentComponent="StaticPnl1"
+                 width="1480" height="760" textColour="16777215" itemColour="0"
+                 itemColour2="0" enabled="0">
+        <Component type="ScriptPanel" id="ClrPnl1" x="350" y="280" parentComponent="PnlColor1"
+                   width="780" height="220" itemColour="4280032284" itemColour2="4280032284"
+                   enabled="0" textColour="0" borderRadius="14"/>
+        <Component type="ScriptPanel" id="ClrPnl2" x="350" y="200" parentComponent="PnlColor1"
+                   width="780" height="80" itemColour="4280032284" itemColour2="4280032284"
+                   enabled="0" textColour="0" borderRadius="14"/>
+        <Component type="ScriptPanel" id="ClrPnl4" x="350" y="120" parentComponent="PnlColor1"
+                   width="780" height="150" itemColour="4280032284" itemColour2="4280032284"
+                   enabled="0" textColour="4278190080" borderRadius="14"/>
+        <Component type="ScriptPanel" id="ClrPnl5" x="540" y="20" parentComponent="PnlColor1"
+                   width="400" height="50" itemColour="4280032284" itemColour2="4280032284"
+                   enabled="0" textColour="4278190080" borderRadius="14"/>
+        <Component type="ScriptPanel" id="ClrPnl7" x="620" y="200" parentComponent="PnlColor1"
+                   width="240" height="260" itemColour="4280032284" itemColour2="4280032284"
+                   textColour="4278190080" enabled="0"/>
+        <Component type="ScriptPanel" id="ClrPnl8" x="10" y="285" width="320" height="435"
+                   itemColour="4280032284" itemColour2="4280032284" textColour="16777215"
+                   parentComponent="PnlColor1"/>
+      </Component>
+      <Component type="ScriptPanel" id="TabBtnPnl1" x="350" y="80" parentComponent="StaticPnl1"
+                 width="780" height="50" itemColour="4280032284" itemColour2="4280032284"
+                 textColour="4278190080" borderRadius="14">
+        <Component type="ScriptButton" id="MainDisTabBtn1" x="0" y="10" parentComponent="TabBtnPnl1"
+                   width="195" height="33" defaultValue="1" text="S Y N T H" itemColour="4284966759"
+                   bgColour="4278190080" itemColour2="4227816283" textColour="4278190080"
+                   tooltip="S Y N T H" isMomentary="1" filmstripImage="{PROJECT_FOLDER}UD AUDIO RECTANGLE LIGHT BTN1.png"/>
+        <Component type="ScriptButton" id="MainDisTabBtn2" x="195" y="10" parentComponent="TabBtnPnl1"
+                   width="195" height="33" saveInPreset="0" text="M A S T E R  F X"
+                   itemColour="4284966759" bgColour="4278190080" itemColour2="4227816283"
+                   textColour="4278190080" tooltip="M A S T E R  F X" isMomentary="1"
+                   filmstripImage="{PROJECT_FOLDER}UD AUDIO RECTANGLE LIGHT BTN1.png"/>
+        <Component type="ScriptButton" id="MainDisTabBtn3" x="390" y="10" parentComponent="TabBtnPnl1"
+                   width="195" height="33" saveInPreset="0" text="M A C R O S" itemColour="4284966759"
+                   bgColour="4278190080" itemColour2="4227816283" textColour="4278190080"
+                   tooltip="M A C R O S" isMomentary="1" filmstripImage="{PROJECT_FOLDER}UD AUDIO RECTANGLE LIGHT BTN1.png"/>
+        <Component type="ScriptButton" id="MainDisTabBtn4" x="585" y="10" parentComponent="TabBtnPnl1"
+                   width="195" height="33" saveInPreset="0" text="O P T I O N S"
+                   itemColour="4284966759" bgColour="4278190080" itemColour2="4227816283"
+                   textColour="4278190080" tooltip="O P T I O N S" isMomentary="1"
+                   filmstripImage="{PROJECT_FOLDER}UD AUDIO RECTANGLE LIGHT BTN1.png"/>
+      </Component>
+      <Component type="ScriptPanel" id="TabPnl1" x="340" y="120" parentComponent="StaticPnl1"
+                 width="800" height="390" itemColour="1842204" itemColour2="1842204"
+                 textColour="0" borderRadius="14" bgColour="16777215">
+        <Component type="ScriptPanel" id="MainDisTab1" x="10" y="0" parentComponent="TabPnl1"
+                   width="780" height="340" itemColour="4280032284" itemColour2="4280032284"
+                   textColour="4278190080">
+          <Component type="ScriptImage" id="ImgElement1" x="270" y="20" parentComponent="MainDisTab1"
+                     width="243" height="322" fileName="{PROJECT_FOLDER}ELEMENT1.png"/>
+          <Component type="ScriptPanel" id="Panel25" x="0" y="0" parentComponent="MainDisTab1"
+                     width="780" height="20" itemColour="4278190080" itemColour2="4278190080"/>
+          <Component type="ScriptLabel" id="LblSynth" x="0" y="0" parentComponent="MainDisTab1"
+                     width="780" height="20" fontName="GLOBALFONT" fontSize="10" text="S Y N T H"
+                     textColour="4294941081" editable="0"/>
+          <Component type="ScriptSlider" id="KnbVoiceLimit" x="70" y="16" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
+                     numStrips="101" height="60" width="60" processorId="Syntesizer Group1"
+                     parameterId="VoiceLimit" stepSize="1" middlePosition="7.5" max="128"
+                     defaultValue="42" useUndoManager="1" tooltip="VOICE LIMIT" pluginParameterName="VOICE LIMIT"
+                     suffix="Voices" isPluginParameter="1" showTextBox="0" scaleFactor="0.3"
+                     parentComponent="MainDisTab1" showValuePopup="Above" min="1"/>
+          <Component type="ScriptLabel" id="LblVoiceLimit" x="50" y="70" parentComponent="MainDisTab1"
+                     editable="0" text="VOICE LIMIT" fontSize="8" width="100" fontName="GLOBALFONT"
+                     height="20"/>
+          <Component type="ScriptPanel" id="DynamicPnl1" x="-20" y="130" parentComponent="MainDisTab1"
+                     width="820" height="210" textColour="16777215" itemColour2="0"
+                     itemColour="0" bgColour="16777215" visible="0">
+            <Component type="ScriptPanel" id="Pnl1Detune1" x="20" y="0" parentComponent="DynamicPnl1"
+                       width="200" height="60" textColour="4278190080" enabled="0" itemColour="4280032284"
+                       itemColour2="4280032284"/>
+            <Component type="ScriptPanel" id="Pnl1Detune2" x="600" y="0" parentComponent="DynamicPnl1"
+                       width="200" height="60" textColour="4278190080" enabled="0" itemColour="4280032284"
+                       itemColour2="4280032284"/>
+            <Component type="ScriptPanel" id="Pnl1Waveform1" x="20" y="70" parentComponent="DynamicPnl1"
+                       width="200" height="140" textColour="4278190080" enabled="0"
+                       itemColour="4280032284" itemColour2="4280032284"/>
+            <Component type="ScriptPanel" id="Pnl1Waveform2" x="600" y="70" parentComponent="DynamicPnl1"
+                       width="200" height="140" textColour="4278190080" enabled="0"
+                       itemColour="4280032284" itemColour2="4280032284"/>
+            <Component type="ScriptPanel" id="HighlightPnl1" x="20" y="-50" width="780"
+                       height="300" parentComponent="DynamicPnl1" itemColour="0" itemColour2="0"
+                       bgColour="16777215" textColour="16777215">
+              <Component type="ScriptPanel" id="DetuneH1Pnl1" x="5" y="50" parentComponent="HighlightPnl1"
+                         width="200" height="60" textColour="3137049491" enabled="0" itemColour="1842204"
+                         itemColour2="1842204" bgColour="16777215"/>
+              <Component type="ScriptPanel" id="DetuneH2Pnl1" x="575" y="50" parentComponent="HighlightPnl1"
+                         width="200" height="60" textColour="3137049491" enabled="0" itemColour="1842204"
+                         itemColour2="1842204" bgColour="16777215" visible="0"/>
+              <Component type="ScriptPanel" id="WaveformH1Pnl1" x="5" y="120" parentComponent="HighlightPnl1"
+                         width="200" height="140" textColour="3137049491" enabled="0"
+                         itemColour="1842204" itemColour2="1842204" bgColour="16777215"/>
+              <Component type="ScriptPanel" id="WaveformH2Pnl1" x="575" y="120" parentComponent="HighlightPnl1"
+                         width="200" height="140" textColour="3137049491" enabled="0"
+                         itemColour="1842204" itemColour2="1842204" bgColour="16777215"
+                         visible="0"/>
+            </Component>
+            <Component type="ScriptFloatingTile" id="FtWaveform1" x="30" y="120" parentComponent="DynamicPnl1"
+                       ContentType="Waveform" bgColour="4278190080" itemColour="4278190080"
+                       itemColour2="4294967295" textColour="4294951115" Data="{&#13;&#10;  &quot;ProcessorId&quot;: &quot;Waveform Generator1&quot;,&#13;&#10;  &quot;Index&quot;: 0&#13;&#10;}"
+                       width="180" height="80"/>
+            <Component type="ScriptFloatingTile" id="FtWaveform2" x="610" y="120" parentComponent="DynamicPnl1"
+                       ContentType="Waveform" bgColour="4278190080" itemColour="4278190080"
+                       itemColour2="4294967295" textColour="4294951115" Data="{&#13;&#10;  &quot;ProcessorId&quot;: &quot;Waveform Generator1&quot;,&#13;&#10;  &quot;Index&quot;: 1&#13;&#10;}"
+                       width="180" height="80"/>
+            <Component type="ScriptSlider" id="Detune1Knb1" x="150" y="0" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
+                       numStrips="101" height="60" width="60" processorId="Waveform Generator1"
+                       parameterId="Detune1" middlePosition="0" max="100" useUndoManager="1"
+                       tooltip="DETUNE 1" pluginParameterName="DETUNE 1" parentComponent="DynamicPnl1"
+                       stepSize="1" isPluginParameter="1" showTextBox="0" scaleFactor="0.3"
+                       min="-100" showValuePopup="Above"/>
+            <Component type="ScriptSlider" id="Octave1Knb1" x="300" y="50" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
+                       numStrips="101" height="60" width="60" processorId="Waveform Generator1"
+                       parameterId="OctaveTranspose1" middlePosition="0" max="5" useUndoManager="1"
+                       tooltip="OCTAVE 1" pluginParameterName="OCTAVE 1" parentComponent="DynamicPnl1"
+                       stepSize="1" isPluginParameter="1" showTextBox="0" scaleFactor="0.3"
+                       min="-5" showValuePopup="Below"/>
+            <Component type="ScriptSlider" id="Pan1Knb1" x="330" y="100" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 PAN.png"
+                       numStrips="101" height="60" width="60" processorId="Waveform Generator1"
+                       parameterId="Pan1" middlePosition="0" max="100" useUndoManager="1"
+                       tooltip="PAN 1" pluginParameterName="PAN 1" parentComponent="DynamicPnl1"
+                       stepSize="1" isPluginParameter="1" showTextBox="0" scaleFactor="0.3"
+                       min="-100" mode="Pan" suffix="L" showValuePopup="Below"/>
+            <Component type="ScriptSlider" id="Pulse1Knb1" x="300" y="150" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
+                       numStrips="101" height="60" width="60" processorId="Waveform Generator1"
+                       parameterId="PulseWidth1" middlePosition="0.5" useUndoManager="1"
+                       tooltip="PULSE WIDTH 1" pluginParameterName="PULSE WIDTH 1" parentComponent="DynamicPnl1"
+                       isPluginParameter="1" showTextBox="0" scaleFactor="0.3" mode="NormalizedPercentage"
+                       suffix="%" defaultValue="0.5" showValuePopup="Below"/>
+            <Component type="ScriptSlider" id="Octave2Knb1" x="460" y="50" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
+                       numStrips="101" height="60" width="60" processorId="Waveform Generator1"
+                       parameterId="OctaveTranspose2" middlePosition="0" max="5" useUndoManager="1"
+                       tooltip="OCTAVE 2" pluginParameterName="OCTAVE 2" parentComponent="DynamicPnl1"
+                       stepSize="1" isPluginParameter="1" showTextBox="0" scaleFactor="0.3"
+                       min="-5" showValuePopup="Below"/>
+            <Component type="ScriptSlider" id="Pan2Knb1" x="430" y="100" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 PAN.png"
+                       numStrips="101" height="60" width="60" processorId="Waveform Generator1"
+                       parameterId="Pan2" middlePosition="0" max="100" useUndoManager="1"
+                       tooltip="PAN 2" pluginParameterName="PAN 2" parentComponent="DynamicPnl1"
+                       stepSize="1" isPluginParameter="1" showTextBox="0" scaleFactor="0.3"
+                       min="-100" mode="Pan" suffix="L" showValuePopup="Below"/>
+            <Component type="ScriptSlider" id="Pulse2Knb1" x="460" y="150" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
+                       numStrips="101" height="60" width="60" processorId="Waveform Generator1"
+                       parameterId="PulseWidth2" middlePosition="0.5" useUndoManager="1"
+                       tooltip="PULSE WIDTH 2" pluginParameterName="PULSE WIDTH 2" parentComponent="DynamicPnl1"
+                       isPluginParameter="1" showTextBox="0" scaleFactor="0.3" mode="NormalizedPercentage"
+                       suffix="%" defaultValue="0.5" showValuePopup="Below"/>
+            <Component type="ScriptSlider" id="Detune2Knb1" x="610" y="0" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
+                       numStrips="101" height="60" width="60" processorId="Waveform Generator1"
+                       parameterId="Detune2" middlePosition="0" max="100" useUndoManager="1"
+                       tooltip="DETUNE 2" pluginParameterName="DETUNE 2" parentComponent="DynamicPnl1"
+                       stepSize="1" isPluginParameter="1" showTextBox="0" scaleFactor="0.3"
+                       min="-100" showValuePopup="Above"/>
+            <Component type="ScriptComboBox" id="ComboBoxWaveform1" x="30" y="80" max="9"
+                       parentComponent="DynamicPnl1" width="180" height="30" text="WAVEFORM"
+                       items="SINE&#10;TRIANGLE&#10;SAW&#10;SQUARE&#10;NOISE&#10;TRIANGLE 2&#10;SQUARE 2&#10;TRAPEZOID 1&#10;TRAPEZOID 2"
+                       processorId="Waveform Generator1" parameterId="WaveForm1" defaultValue="3"/>
+            <Component type="ScriptComboBox" id="ComboBoxWaveform2" x="610" y="80" max="9"
+                       parentComponent="DynamicPnl1" width="180" height="30" text="WAVEFORM"
+                       items="SINE&#10;TRIANGLE&#10;SAW&#10;SQUARE&#10;NOISE&#10;TRIANGLE 2&#10;SQUARE 2&#10;TRAPEZOID 1&#10;TRAPEZOID 2"
+                       processorId="Waveform Generator1" parameterId="WaveForm2" defaultValue="3"/>
+            <Component type="ScriptButton" id="Gen1EnableWaveform2" x="390" y="20" parentComponent="DynamicPnl1"
+                       filmstripImage="{PROJECT_FOLDER}UD BTN1.png" width="40" height="40"
+                       scaleFactor="0.3" tooltip="ENABLE WAVEFORM 2" text=""/>
+          </Component>
+          <Component type="ScriptPanel" id="DynamicPnl2" x="-20" y="130" parentComponent="MainDisTab1"
+                     width="820" height="210" textColour="16777215" itemColour2="0"
+                     itemColour="0" bgColour="16777215">
+            <Component type="ScriptPanel" id="Pnl2Detune1" x="20" y="0" parentComponent="DynamicPnl2"
+                       width="200" height="60" textColour="4278190080" enabled="0" itemColour="4280032284"
+                       itemColour2="4280032284"/>
+            <Component type="ScriptPanel" id="Pnl2Detune2" x="600" y="0" width="200"
+                       height="60" textColour="4278190080" enabled="0" itemColour="4280032284"
+                       itemColour2="4280032284" parentComponent="DynamicPnl2"/>
+            <Component type="ScriptPanel" id="Pnl2Waveform1" x="20" y="70" parentComponent="DynamicPnl2"
+                       width="200" height="140" textColour="4278190080" enabled="0"
+                       itemColour="4280032284" itemColour2="4280032284"/>
+            <Component type="ScriptPanel" id="Pnl2Waveform2" x="600" y="70" width="200"
+                       height="140" textColour="4278190080" enabled="0" itemColour="4280032284"
+                       itemColour2="4280032284" parentComponent="DynamicPnl2"/>
+            <Component type="ScriptPanel" id="HighlightPnl2" x="20" y="-50" width="780"
+                       height="300" parentComponent="DynamicPnl2" itemColour="0" itemColour2="0"
+                       bgColour="16777215" textColour="0" enabled="0">
+              <Component type="ScriptPanel" id="Generator2HPnl2" x="0" y="0" parentComponent="HighlightPnl2"
+                         width="780" height="260" itemColour="16777215" itemColour2="3355443"/>
+              <Component type="ScriptPanel" id="DetuneH1Pnl2" x="5" y="50" parentComponent="HighlightPnl2"
+                         width="200" height="60" textColour="3137049491" enabled="0" itemColour="1842204"
+                         itemColour2="1842204" bgColour="16777215"/>
+              <Component type="ScriptPanel" id="DetuneH2Pnl2" x="575" y="50" parentComponent="HighlightPnl2"
+                         width="200" height="60" textColour="3137049491" enabled="0" itemColour="1842204"
+                         itemColour2="1842204" bgColour="16777215" visible="0"/>
+              <Component type="ScriptPanel" id="WaveformH1Pnl2" x="5" y="120" parentComponent="HighlightPnl2"
+                         width="200" height="140" textColour="3137049491" enabled="0"
+                         itemColour="1842204" itemColour2="1842204" bgColour="16777215"/>
+              <Component type="ScriptPanel" id="WaveformH2Pnl2" x="575" y="120" parentComponent="HighlightPnl2"
+                         width="200" height="140" textColour="3137049491" enabled="0"
+                         itemColour="1842204" itemColour2="1842204" bgColour="16777215"
+                         visible="0"/>
+            </Component>
+            <Component type="ScriptFloatingTile" id="FtWaveform3" x="30" y="120" parentComponent="DynamicPnl2"
+                       ContentType="Waveform" bgColour="4278190080" itemColour="4278190080"
+                       itemColour2="4294967295" textColour="4294951115" Data="{&#13;&#10;  &quot;ProcessorId&quot;: &quot;Waveform Generator2&quot;,&#13;&#10;  &quot;Index&quot;: 0&#13;&#10;}"
+                       width="180" height="80"/>
+            <Component type="ScriptFloatingTile" id="FtWaveform4" x="610" y="120" parentComponent="DynamicPnl2"
+                       ContentType="Waveform" bgColour="4278190080" itemColour="4278190080"
+                       itemColour2="4294967295" textColour="4294951115" Data="{&#13;&#10;  &quot;ProcessorId&quot;: &quot;Waveform Generator2&quot;,&#13;&#10;  &quot;Index&quot;: 1&#13;&#10;}"
+                       width="180" height="80"/>
+            <Component type="ScriptSlider" id="Detune1Knb2" x="150" y="0" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
+                       numStrips="101" height="60" width="60" processorId="Waveform Generator2"
+                       parameterId="Detune1" middlePosition="0" max="100" useUndoManager="1"
+                       tooltip="DETUNE 1" pluginParameterName="DETUNE 1" parentComponent="DynamicPnl2"
+                       stepSize="1" isPluginParameter="1" showTextBox="0" scaleFactor="0.3"
+                       min="-100" showValuePopup="Above"/>
+            <Component type="ScriptSlider" id="Octave1Knb2" x="300" y="50" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
+                       numStrips="101" height="60" width="60" processorId="Waveform Generator2"
+                       parameterId="OctaveTranspose1" middlePosition="0" max="5" useUndoManager="1"
+                       tooltip="OCTAVE 1" pluginParameterName="OCTAVE 1" parentComponent="DynamicPnl2"
+                       stepSize="1" isPluginParameter="1" showTextBox="0" scaleFactor="0.3"
+                       min="-5" showValuePopup="Below"/>
+            <Component type="ScriptSlider" id="Pan1Knb2" x="330" y="100" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 PAN.png"
+                       numStrips="101" height="60" width="60" processorId="Waveform Generator2"
+                       parameterId="Pan1" middlePosition="0" max="100" useUndoManager="1"
+                       tooltip="PAN 1" pluginParameterName="PAN 1" parentComponent="DynamicPnl2"
+                       stepSize="1" isPluginParameter="1" showTextBox="0" scaleFactor="0.3"
+                       min="-100" mode="Pan" suffix="L" showValuePopup="Below"/>
+            <Component type="ScriptSlider" id="Pulse1Knb2" x="300" y="150" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
+                       numStrips="101" height="60" width="60" processorId="Waveform Generator2"
+                       parameterId="PulseWidth1" middlePosition="0.5" useUndoManager="1"
+                       tooltip="PULSE WIDTH 1" pluginParameterName="PULSE WIDTH 1" parentComponent="DynamicPnl2"
+                       isPluginParameter="1" showTextBox="0" scaleFactor="0.3" mode="NormalizedPercentage"
+                       suffix="%" defaultValue="0.5" showValuePopup="Below"/>
+            <Component type="ScriptSlider" id="Octave2Knb2" x="460" y="50" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
+                       numStrips="101" height="60" width="60" processorId="Waveform Generator2"
+                       parameterId="OctaveTranspose2" middlePosition="0" max="5" useUndoManager="1"
+                       tooltip="OCTAVE 2" pluginParameterName="OCTAVE 2" parentComponent="DynamicPnl2"
+                       stepSize="1" isPluginParameter="1" showTextBox="0" scaleFactor="0.3"
+                       min="-5" showValuePopup="Below"/>
+            <Component type="ScriptSlider" id="Pan2Knb2" x="430" y="100" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 PAN.png"
+                       numStrips="101" height="60" width="60" processorId="Waveform Generator2"
+                       parameterId="Pan2" middlePosition="0" max="100" useUndoManager="1"
+                       tooltip="PAN 2" pluginParameterName="PAN 2" parentComponent="DynamicPnl2"
+                       stepSize="1" isPluginParameter="1" showTextBox="0" scaleFactor="0.3"
+                       min="-100" mode="Pan" suffix="L" showValuePopup="Below"/>
+            <Component type="ScriptSlider" id="Pulse2Knb2" x="460" y="150" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
+                       numStrips="101" height="60" width="60" processorId="Waveform Generator2"
+                       parameterId="PulseWidth2" middlePosition="0.5" useUndoManager="1"
+                       tooltip="PULSE WIDTH 2" pluginParameterName="PULSE WIDTH 2" parentComponent="DynamicPnl2"
+                       isPluginParameter="1" showTextBox="0" scaleFactor="0.3" mode="NormalizedPercentage"
+                       suffix="%" defaultValue="0.5" showValuePopup="Below"/>
+            <Component type="ScriptSlider" id="Detune2Knb2" x="610" y="0" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
+                       numStrips="101" height="60" width="60" processorId="Waveform Generator2"
+                       parameterId="Detune2" middlePosition="0" max="100" useUndoManager="1"
+                       tooltip="DETUNE 2" pluginParameterName="DETUNE 2" parentComponent="DynamicPnl2"
+                       stepSize="1" isPluginParameter="1" showTextBox="0" scaleFactor="0.3"
+                       min="-100" showValuePopup="Above"/>
+            <Component type="ScriptComboBox" id="ComboBoxWaveform3" x="30" y="80" max="9"
+                       parentComponent="DynamicPnl2" width="180" height="30" text="WAVEFORM"
+                       items="SINE&#10;TRIANGLE&#10;SAW&#10;SQUARE&#10;NOISE&#10;TRIANGLE 2&#10;SQUARE 2&#10;TRAPEZOID 1&#10;TRAPEZOID 2"
+                       processorId="Waveform Generator2" parameterId="WaveForm1" defaultValue="3"/>
+            <Component type="ScriptComboBox" id="ComboBoxWaveform4" x="610" y="80" max="9"
+                       parentComponent="DynamicPnl2" width="180" height="30" text="WAVEFORM"
+                       items="SINE&#10;TRIANGLE&#10;SAW&#10;SQUARE&#10;NOISE&#10;TRIANGLE 2&#10;SQUARE 2&#10;TRAPEZOID 1&#10;TRAPEZOID 2"
+                       processorId="Waveform Generator2" parameterId="WaveForm2" defaultValue="3"/>
+            <Component type="ScriptButton" id="Gen2EnableWaveform2" x="390" y="20" parentComponent="DynamicPnl2"
+                       filmstripImage="{PROJECT_FOLDER}UD BTN1.png" width="40" height="40"
+                       scaleFactor="0.3" tooltip="ENABLE WAVEFORM 2" defaultValue="1"/>
+          </Component>
+          <Component type="ScriptPanel" id="PnlFmTransposeMono" x="270" y="14" parentComponent="MainDisTab1"
+                     width="240" height="80" itemColour="2500134" itemColour2="2500134"
+                     textColour="0">
+            <Component type="ScriptPanel" id="Panel15" x="0" y="-20" parentComponent="PnlFmTransposeMono"
+                       width="240" height="20" itemColour="4294967295" itemColour2="4294967295"
+                       bgColour="16777215" visible="0"/>
+            <Component type="ScriptLabel" id="ScriptLabel1" x="0" y="-20" width="240"
+                       height="20" parentComponent="PnlFmTransposeMono" fontName="GLOBALFONT"
+                       fontSize="10" text="S Y N T H" itemColour2="4211081216" editable="0"
+                       enabled="0"/>
+            <Component type="ScriptLabel" id="LblFM" x="10" y="60" parentComponent="PnlFmTransposeMono"
+                       editable="0" text="FM" fontSize="8" width="60" fontName="GLOBALFONT"
+                       height="20"/>
+            <Component type="ScriptLabel" id="LblMono" x="170" y="60" parentComponent="PnlFmTransposeMono"
+                       editable="0" text="MONO" fontSize="8" width="60" fontName="GLOBALFONT"
+                       height="20"/>
+            <Component type="ScriptLabel" id="LblTranspose" x="70" y="55" parentComponent="PnlFmTransposeMono"
+                       editable="0" text="TRANSPOSE" fontSize="8" width="100" fontName="GLOBALFONT"
+                       height="20"/>
+            <Component type="ScriptButton" id="BtnFm" x="20" y="20" parentComponent="PnlFmTransposeMono"
+                       filmstripImage="{PROJECT_FOLDER}UD BTN1.png" width="40" height="40"
+                       processorId="Syntesizer Group1" parameterId="EnableFM" tooltip="FM"
+                       text="" scaleFactor="0.3" isPluginParameter="1" pluginParameterName="FM"/>
+            <Component type="ScriptButton" id="BtnMono" x="180" y="20" parentComponent="PnlFmTransposeMono"
+                       filmstripImage="{PROJECT_FOLDER}UD BTN1.png" width="40" height="40"
+                       processorId="Syntesizer Group1" parameterId="ForceMono" tooltip="MONO"
+                       text="" scaleFactor="0.3" isPluginParameter="1" pluginParameterName="MONO"/>
+            <Component type="ScriptSlider" id="KnbTranspose" x="90" y="0" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
+                       numStrips="101" height="60" width="60" processorId="Transposer1"
+                       parameterId="TransposeAmount" middlePosition="0" max="24" useUndoManager="1"
+                       tooltip="TRANSPOSE" pluginParameterName="TRANSPOSE" parentComponent="PnlFmTransposeMono"
+                       stepSize="1" isPluginParameter="1" showTextBox="0" scaleFactor="0.3"
+                       min="-24" showValuePopup="Above" defaultValue="-24"/>
+          </Component>
+          <Component type="ScriptButton" id="BtnGeneratorSwitch" x="450" y="110" parentComponent="MainDisTab1"
+                     width="40" height="40" scaleFactor="0.3" tooltip="SWITCH GENERATOR"
+                     text="" filmstripImage="{PROJECT_FOLDER}UD BTN1.png">
+            <Component type="ScriptImage" id="Image3" x="0" y="0" parentComponent="BtnGeneratorSwitch"
+                       width="100" height="100" fileName="{PROJECT_FOLDER}VIBR_FMSYNTHSWITCHLAYERDETAIL.png"
+                       enabled="0" visible="0"/>
+          </Component>
+          <Component type="ScriptButton" id="Generator2Enable" x="290" y="110" parentComponent="MainDisTab1"
+                     filmstripImage="{PROJECT_FOLDER}UD BTN1.png" width="40" height="40"
+                     scaleFactor="0.3" tooltip="ENABLE GENERATOR 2"/>
+          <Component type="ScriptLabel" id="LblDetune1" x="10" y="150" editable="0"
+                     text="DETUNE" fontSize="8" width="100" fontName="GLOBALFONT"
+                     height="20" parentComponent="MainDisTab1"/>
+          <Component type="ScriptLabel" id="LblOctave" x="340" y="200" editable="0"
+                     text="OCTAVE" fontSize="8" width="100" fontName="GLOBALFONT"
+                     height="20" parentComponent="MainDisTab1"/>
+          <Component type="ScriptLabel" id="LblPan" x="340" y="250" editable="0" text="PAN"
+                     fontSize="8" width="100" fontName="GLOBALFONT" height="20" parentComponent="MainDisTab1"/>
+          <Component type="ScriptLabel" id="LblPulse" x="340" y="300" editable="0"
+                     text="PULSE " fontSize="8" width="100" fontName="GLOBALFONT"
+                     height="20" parentComponent="MainDisTab1"/>
+          <Component type="ScriptLabel" id="LblDetune2" x="670" y="150" editable="0"
+                     text="DETUNE" fontSize="8" width="100" fontName="GLOBALFONT"
+                     height="20" parentComponent="MainDisTab1"/>
+          <Component type="ScriptLabel" id="LblEnableGenerator2" x="280" y="90" editable="0"
+                     text="GEN 2" fontSize="8" width="60" fontName="GLOBALFONT" height="20"
+                     parentComponent="MainDisTab1" textColour="4294671484"/>
+          <Component type="ScriptLabel" id="LblSwitchGenerator" x="440" y="90" editable="0"
+                     text="SWITCH" fontSize="8" width="60" fontName="GLOBALFONT" height="20"
+                     parentComponent="MainDisTab1" textColour="4294671484"/>
+          <Component type="ScriptLabel" id="LblEnableWaveform2" x="340" y="120" editable="0"
+                     text="WAVEFORM" fontSize="8" width="100" fontName="GLOBALFONT"
+                     height="20" multiline="1" parentComponent="MainDisTab1" textColour="4294671484"/>
+          <Component type="ScriptLabel" id="LblEnableWaveform3" x="370" y="130" editable="0"
+                     text="2" fontSize="8" width="40" fontName="GLOBALFONT" height="20"
+                     multiline="1" parentComponent="MainDisTab1" textColour="4294671484"/>
+        </Component>
+        <Component type="ScriptPanel" id="PnlColor3" x="10" y="90" parentComponent="TabPnl1"
+                   width="780" height="290" itemColour="1842204" itemColour2="1842204"
+                   enabled="0" textColour="4278190080" borderRadius="14"/>
+        <Component type="ScriptPanel" id="MainDisTab2" x="10" y="0" parentComponent="TabPnl1"
+                   width="780" height="340" itemColour="4280032284" itemColour2="4280032284"
+                   textColour="4278190080" visible="0">
+          <Component type="ScriptPanel" id="TabMasterFx" x="0" y="0" width="780" height="340"
+                     textColour="16777215" itemColour="0" itemColour2="0" parentComponent="MainDisTab2">
+            <Component type="ScriptPanel" id="Panel22" x="0" y="0" parentComponent="TabMasterFx"
+                       width="780" height="20" itemColour="4278190080" itemColour2="4278190080"/>
+            <Component type="ScriptLabel" id="LblMasterFx1" x="0" y="0" parentComponent="TabMasterFx"
+                       editable="0" text="M A S T E R  F X" fontSize="10" width="780"
+                       fontName="GLOBALFONT" height="20" textColour="4294938511"/>
+            <Component type="ScriptButton" id="DegradeVisibilityBtn" x="190" y="22"
+                       parentComponent="TabMasterFx" scaleFactor="0.515" width="100"
+                       height="20" filmstripImage="{PROJECT_FOLDER}UD AUDIO RECTANGLE LIGHT BTN1.png"/>
+            <Component type="ScriptButton" id="ShapeFXVisibilityBtn" x="290" y="22"
+                       parentComponent="TabMasterFx" scaleFactor="0.515" width="100"
+                       height="20" filmstripImage="{PROJECT_FOLDER}UD AUDIO RECTANGLE LIGHT BTN1.png"/>
+            <Component type="ScriptButton" id="PhazorVisibilityBtn" x="390" y="22" parentComponent="TabMasterFx"
+                       scaleFactor="0.515" width="100" height="20" filmstripImage="{PROJECT_FOLDER}UD AUDIO RECTANGLE LIGHT BTN1.png"/>
+            <Component type="ScriptButton" id="EQVisibilityBtn" x="490" y="22" parentComponent="TabMasterFx"
+                       scaleFactor="0.515" width="100" height="20" tooltip="EQ" filmstripImage="{PROJECT_FOLDER}UD AUDIO RECTANGLE LIGHT BTN1.png"/>
+            <Component type="ScriptLabel" id="LblDegrade1" x="190" y="20" parentComponent="TabMasterFx"
+                       editable="0" text="BIT" fontSize="8" width="100" fontName="GLOBALFONT"
+                       height="20"/>
+            <Component type="ScriptLabel" id="LblShape1" x="290" y="20" parentComponent="TabMasterFx"
+                       editable="0" text="SHAPE" fontSize="8" width="100" fontName="GLOBALFONT"
+                       height="20"/>
+            <Component type="ScriptLabel" id="LblPhazor1" x="390" y="20" parentComponent="TabMasterFx"
+                       editable="0" text="PHAZOR" fontSize="8" width="100" fontName="GLOBALFONT"
+                       height="20"/>
+            <Component type="ScriptLabel" id="LblEQ1" x="490" y="20" parentComponent="TabMasterFx"
+                       editable="0" text="EQ" fontSize="8" width="100" fontName="GLOBALFONT"
+                       height="20"/>
+            <Component type="ScriptButton" id="DegradeEnableBtn" x="220" y="60" parentComponent="TabMasterFx"
+                       scaleFactor="0.47" width="60" height="60" processorId="Effect Slot2_Degrade"
+                       filmstripImage="{PROJECT_FOLDER}UD BTN1.png" parameterId="Enabled"/>
+            <Component type="ScriptButton" id="ShapeFXEnableBtn" x="320" y="60" parentComponent="TabMasterFx"
+                       scaleFactor="0.47" width="60" height="60" filmstripImage="{PROJECT_FOLDER}UD BTN1.png"
+                       processorId="Effect Slot3_ShapeFX" parameterId="Enabled"/>
+            <Component type="ScriptButton" id="PhazorEnableBtn" x="420" y="60" parentComponent="TabMasterFx"
+                       scaleFactor="0.47" width="60" height="60" filmstripImage="{PROJECT_FOLDER}UD BTN1.png"
+                       processorId="Effect Slot4_PhaseFX" parameterId="Enabled"/>
+            <Component type="ScriptButton" id="EQEnableBtn" x="520" y="60" scaleFactor="0.47"
+                       width="60" height="60" parentComponent="TabMasterFx" filmstripImage="{PROJECT_FOLDER}UD BTN1.png"
+                       processorId="Effect Slot5_CurveEq" parameterId="Enabled"/>
+            <Component type="ScriptSlider" id="MasterFxMixKnb1" x="200" y="140" parentComponent="TabMasterFx"
+                       width="100" height="100" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
+                       numStrips="101" scaleFactor="0.5"/>
+            <Component type="ScriptSlider" id="MasterFxMixKnb2" x="300" y="140" parentComponent="TabMasterFx"
+                       width="100" height="100" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
+                       numStrips="101" scaleFactor="0.5"/>
+            <Component type="ScriptSlider" id="MasterFxMixKnb3" x="400" y="140" parentComponent="TabMasterFx"
+                       width="100" height="100" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
+                       numStrips="101" scaleFactor="0.5"/>
+            <Component type="ScriptSlider" id="MasterFxMixKnb4" x="500" y="140" parentComponent="TabMasterFx"
+                       width="100" height="100" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
+                       numStrips="101" scaleFactor="0.5"/>
+            <Component type="ScriptLabel" id="LblEQ2" x="0" y="20" parentComponent="TabMasterFx"
+                       editable="0" text="SHOW" fontSize="8" width="100" fontName="GLOBALFONT"
+                       height="20"/>
+            <Component type="ScriptLabel" id="LblEQ3" x="0" y="80" parentComponent="TabMasterFx"
+                       editable="0" text="ENABLE" fontSize="8" width="100" fontName="GLOBALFONT"
+                       height="20"/>
+            <Component type="ScriptLabel" id="LblEQ4" x="0" y="180" parentComponent="TabMasterFx"
+                       editable="0" text="MIX" fontSize="8" width="100" fontName="GLOBALFONT"
+                       height="20"/>
+          </Component>
+        </Component>
+        <Component type="ScriptPanel" id="MainDisTab3" x="10" y="0" parentComponent="TabPnl1"
+                   width="780" height="340" itemColour="4280032284" itemColour2="4280032284"
+                   textColour="4278190080" visible="0">
+          <Component type="ScriptPanel" id="Panel23" x="0" y="0" parentComponent="MainDisTab3"
+                     width="780" height="20" itemColour="4278190080" itemColour2="4278190080"/>
+          <Component type="ScriptLabel" id="TabLblMacros" x="0" y="0" parentComponent="MainDisTab3"
+                     editable="0" text="M A C R O S" fontSize="10" width="780" fontName="GLOBALFONT"
+                     height="20" textColour="4294938511"/>
+          <Component type="ScriptFloatingTile" id="MacroFrontend" x="0" y="20" ContentType="FrontendMacroPanel"
+                     bgColour="0" itemColour="2147483647" itemColour2="2147483647"
+                     textColour="2147483647" Data="{&#13;&#10;}" Font="LCD DISPLAY"
+                     width="780" height="320" FontSize="12" parentComponent="MainDisTab3"/>
+        </Component>
+        <Component type="ScriptPanel" id="MainDisTab4" x="10" y="0" parentComponent="TabPnl1"
+                   width="780" height="340" itemColour="4280032284" itemColour2="4280032284"
+                   textColour="4278190080" visible="0">
+          <Component type="ScriptPanel" id="Panel24" x="0" y="0" parentComponent="MainDisTab4"
+                     width="780" height="20" itemColour="4278190080" itemColour2="4278190080"/>
+          <Component type="ScriptLabel" id="TabLblOptions" x="0" y="0" parentComponent="MainDisTab4"
+                     editable="0" text="O P T I O N S" fontSize="10" width="780" fontName="GLOBALFONT"
+                     height="20" textColour="4294938511"/>
+          <Component type="ScriptComboBox" id="CmbSkins" x="10" y="70" max="2" parentComponent="MainDisTab4"
+                     text="S K I N S" items="1. CLASSIC&#10;2. ALIEN" fontName="GLOBALFONT"
+                     fontStyle="Bold" tooltip="S K I N S" width="100" height="30"
+                     fontSize="10"/>
+          <Component type="ScriptLabel" id="LblSkins" x="10" y="40" parentComponent="MainDisTab4"
+                     text="S K I N S" width="100" height="30" fontName="GLOBALFONT"
+                     fontSize="10"/>
+        </Component>
+      </Component>
+      <Component type="ScriptPanel" id="PnlPresets" x="330" y="465" width="820"
+                 height="30" itemColour="0" itemColour2="0" textColour="16777215"
+                 bgColour="16777215" parentComponent="StaticPnl1">
+        <Component type="ScriptImage" id="ImgPresets" x="230" y="5" width="380"
+                   height="20" fileName="{PROJECT_FOLDER}DISPLAY.png" visible="0"
+                   parentComponent="PnlPresets"/>
+        <Component type="ScriptPanel" id="PnlPresetname" x="220" y="5" width="380"
+                   height="20" itemColour="4278190080" itemColour2="4278190080"
+                   textColour="4278190080" parentComponent="PnlPresets">
+          <Component type="ScriptLabel" id="PresetName" x="0" y="0" parentComponent="PnlPresetname"
+                     width="380" height="20" text="P R E S E T S" fontName="LCD DISPLAY"
+                     fontSize="24" textColour="4294671484">
+            <Component type="ScriptSlider" id="PresetHiddenKnb" x="0" y="0" parentComponent="PresetName"
+                       width="380" height="20" filmstripImage="{PROJECT_FOLDER}TRANSPARENCY.png"
+                       numStrips="2" text="" visible="0"/>
+            <Component type="ScriptButton" id="ShowPresetBrowser" x="-30" y="0" parentComponent="PresetName"
+                       width="430" height="20" text="" filmstripImage="{PROJECT_FOLDER}TRANSPARENCY.png"
+                       saveInPreset="0"/>
+          </Component>
+        </Component>
+        <Component type="ScriptButton" id="PrevBtn" x="610" y="-5" width="90" height="40"
+                   filmstripImage="{PROJECT_FOLDER}TRANSPARENCY.png" isMomentary="1"
+                   saveInPreset="0" parentComponent="PnlPresets">
+          <Component type="ScriptLabel" id="Label1" x="0" y="0" parentComponent="PrevBtn"
+                     width="90" height="40" text="PREV" fontName="GLOBALFONT" fontSize="12"
+                     editable="0"/>
+        </Component>
+        <Component type="ScriptButton" id="NextBtn" x="700" y="-5" width="90" height="40"
+                   filmstripImage="{PROJECT_FOLDER}TRANSPARENCY.png" isMomentary="1"
+                   saveInPreset="0" parentComponent="PnlPresets">
+          <Component type="ScriptLabel" id="Label2" x="0" y="0" parentComponent="NextBtn"
+                     width="90" height="40" text="NEXT" fontName="GLOBALFONT" fontSize="12"
+                     editable="0"/>
+        </Component>
+        <Component type="ScriptButton" id="SavePresetBtn" x="130" y="-5" width="90"
+                   height="40" filmstripImage="{PROJECT_FOLDER}TRANSPARENCY.png"
+                   isMomentary="1" saveInPreset="0" parentComponent="PnlPresets"
+                   enabled="0">
+          <Component type="ScriptLabel" id="Label4" x="0" y="0" parentComponent="SavePresetBtn"
+                     width="90" height="40" text="SAVE" fontName="GLOBALFONT" fontSize="12"
+                     editable="0"/>
+        </Component>
+        <Component type="ScriptLabel" id="Label5" x="40" y="-5" width="90" height="40"
+                   text="PRESETS" fontName="GLOBALFONT" fontSize="12" editable="0"
+                   visible="0" enabled="0" parentComponent="PnlPresets">
+          <Component type="ScriptSlider" id="Knob1" x="186" y="-290" parentComponent="Label5"/>
+        </Component>
+      </Component>
+      <Component type="ScriptPanel" id="PnlMasterFx" x="1170" y="180" width="280"
+                 height="90" textColour="4278190080" itemColour="0" itemColour2="0"
+                 parentComponent="StaticPnl1">
+        <Component type="ScriptPanel" id="Panel21" x="0" y="0" parentComponent="PnlMasterFx"
+                   width="280" height="20" itemColour="4278190080" itemColour2="4278190080"/>
+        <Component type="ScriptLabel" id="LblMasterFx" x="0" y="0" parentComponent="PnlMasterFx"
+                   editable="0" text="M A S T E R  F X" fontSize="10" width="280"
+                   fontName="GLOBALFONT" height="20"/>
+        <Component type="ScriptButton" id="DegradeVisibilityBtn1" x="0" y="70" parentComponent="PnlMasterFx"
+                   filmstripImage="{PROJECT_FOLDER}UD AUDIO RECTANGLE LIGHT BTN1.png"
+                   scaleFactor="0.36" width="70" height="20"/>
+        <Component type="ScriptButton" id="ShapeFXVisibilityBtn1" x="70" y="70"
+                   parentComponent="PnlMasterFx" filmstripImage="{PROJECT_FOLDER}UD AUDIO RECTANGLE LIGHT BTN1.png"
+                   scaleFactor="0.36" width="70" height="20"/>
+        <Component type="ScriptButton" id="PhazorVisibilityBtn1" x="140" y="70"
+                   parentComponent="PnlMasterFx" filmstripImage="{PROJECT_FOLDER}UD AUDIO RECTANGLE LIGHT BTN1.png"
+                   scaleFactor="0.36" width="70" height="20"/>
+        <Component type="ScriptButton" id="EQVisibilityBtn1" x="210" y="70" parentComponent="PnlMasterFx"
+                   filmstripImage="{PROJECT_FOLDER}UD AUDIO RECTANGLE LIGHT BTN1.png"
+                   scaleFactor="0.36" width="70" height="20" tooltip="EQ" saveInPreset="0"
+                   processorId="" linkedTo="EQVisibilityBtn"/>
+        <Component type="ScriptLabel" id="LblDegrade" x="0" y="65" parentComponent="PnlMasterFx"
+                   editable="0" text="BIT" fontSize="8" width="70" fontName="GLOBALFONT"
+                   height="20"/>
+        <Component type="ScriptLabel" id="LblShape" x="70" y="65" parentComponent="PnlMasterFx"
+                   editable="0" text="SHAPE" fontSize="8" width="70" fontName="GLOBALFONT"
+                   height="20"/>
+        <Component type="ScriptLabel" id="LblPhazor" x="140" y="65" parentComponent="PnlMasterFx"
+                   editable="0" text="PHAZOR" fontSize="8" width="70" fontName="GLOBALFONT"
+                   height="20"/>
+        <Component type="ScriptLabel" id="LblEQ" x="210" y="65" parentComponent="PnlMasterFx"
+                   editable="0" text="EQ" fontSize="8" width="70" fontName="GLOBALFONT"
+                   height="20"/>
+        <Component type="ScriptButton" id="DegradeEnableBtn1" x="30" y="20" parentComponent="PnlMasterFx"
+                   scaleFactor="0.15" width="25" height="25" saveInPreset="0" processorId=""
+                   linkedTo="DegradeEnableBtn" filmstripImage="{PROJECT_FOLDER}UD BTN1.png"/>
+        <Component type="ScriptButton" id="ShapeFXEnableBtn1" x="90" y="20" parentComponent="PnlMasterFx"
+                   scaleFactor="0.15" width="25" height="25" saveInPreset="0" processorId=""
+                   linkedTo="ShapeFXEnableBtn" filmstripImage="{PROJECT_FOLDER}UD BTN1.png"/>
+        <Component type="ScriptButton" id="PhazorEnableBtn1" x="150" y="20" parentComponent="PnlMasterFx"
+                   scaleFactor="0.15" width="25" height="25" saveInPreset="0" processorId=""
+                   linkedTo="PhazorEnableBtn" filmstripImage="{PROJECT_FOLDER}UD BTN1.png"/>
+        <Component type="ScriptButton" id="EQEnableBtn1" x="210" y="20" scaleFactor="0.15"
+                   width="25" height="25" parentComponent="PnlMasterFx" saveInPreset="0"
+                   processorId="" linkedTo="PhazorEnableBtn" filmstripImage="{PROJECT_FOLDER}UD BTN1.png"/>
+      </Component>
+      <Component type="ScriptPanel" id="PnlUnison" x="10" y="400" parentComponent="StaticPnl1"
+                 width="220" height="90" textColour="3137049491" itemColour="3684408"
+                 itemColour2="3684408">
+        <Component type="ScriptPanel" id="Panel26" x="0" y="0" parentComponent="PnlUnison"
+                   width="220" height="20" itemColour2="4278190080" itemColour="4278190080"
+                   enabled="0" textColour="16777215" visible="0"/>
+        <Component type="ScriptLabel" id="LblUnison" x="0" y="0" parentComponent="PnlUnison"
+                   editable="0" text="U N I S O N" fontSize="10" width="220" fontName="GLOBALFONT"
+                   height="20" textColour="4294671484"/>
+        <Component type="ScriptLabel" id="LblVoices" x="-10" y="70" parentComponent="PnlUnison"
+                   editable="0" text="VOICES" fontSize="8" width="100" fontName="GLOBALFONT"
+                   height="20"/>
+        <Component type="ScriptLabel" id="LblDetune" x="60" y="70" parentComponent="PnlUnison"
+                   editable="0" text="DETUNE" fontSize="8" width="100" fontName="GLOBALFONT"
+                   height="20"/>
+        <Component type="ScriptLabel" id="LblSpread" x="130" y="70" parentComponent="PnlUnison"
+                   editable="0" text="SPREAD" fontSize="8" width="100" fontName="GLOBALFONT"
+                   height="20"/>
+        <Component type="ScriptSlider" id="KnbUnisonVoices" x="10" y="15" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
+                   numStrips="101" height="60" width="60" processorId="Syntesizer Group1"
+                   parameterId="UnisonoVoiceAmount" stepSize="1" middlePosition="7.5"
+                   max="16" defaultValue="6" useUndoManager="1" tooltip="UNISON VOICES"
+                   pluginParameterName="UNISON VOICES" suffix="Voices" isPluginParameter="1"
+                   showTextBox="0" scaleFactor="0.3" parentComponent="PnlUnison"
+                   showValuePopup="Above" min="1"/>
+        <Component type="ScriptSlider" id="KnbUnisonDetune" x="80" y="15" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
+                   numStrips="101" height="60" width="60" processorId="Syntesizer Group1"
+                   parameterId="UnisonoDetune" middlePosition="3" max="6" defaultValue="0.36"
+                   useUndoManager="1" tooltip="UNISON DETUNE" pluginParameterName="UNISON DETUNE"
+                   parentComponent="PnlUnison" suffix="st" isPluginParameter="1"
+                   showTextBox="0" scaleFactor="0.3" showValuePopup="Above"/>
+        <Component type="ScriptSlider" id="KnbUnisonSpead" x="150" y="15" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
+                   numStrips="101" height="60" width="60" middlePosition="1" max="2"
+                   defaultValue="1.11" useUndoManager="1" tooltip="UNISON SPREAD"
+                   pluginParameterName="UNISON SPREAD" parentComponent="PnlUnison"
+                   suffix="%" isPluginParameter="1" showTextBox="0" scaleFactor="0.3"
+                   showValuePopup="Above" processorId="Syntesizer Group1" parameterId="UnisonoSpread"
+                   mode="NormalizedPercentage"/>
+      </Component>
+      <Component type="ScriptPanel" id="PnlEnvelope" x="30" y="180" parentComponent="StaticPnl1"
+                 width="280" height="90" textColour="4278190080" itemColour2="3684408"
+                 itemColour="3684408">
+        <Component type="ScriptPanel" id="Panel28" x="0" y="0" parentComponent="PnlEnvelope"
+                   width="280" height="90" textColour="4278190080" itemColour="0"
+                   itemColour2="0"/>
+        <Component type="ScriptPanel" id="Panel29" x="0" y="0" parentComponent="PnlEnvelope"
+                   width="280" height="20" textColour="16777215" itemColour2="4278190080"
+                   itemColour="4278190080" enabled="0"/>
+        <Component type="ScriptLabel" id="LblEnvelope" x="0" y="0" parentComponent="PnlEnvelope"
+                   editable="0" text="E N V E L O P E" fontSize="10" width="280"
+                   fontName="GLOBALFONT" height="20"/>
+        <Component type="ScriptPanel" id="Panel8" x="10" y="30" parentComponent="PnlEnvelope"
+                   width="260" height="40" borderRadius="20" bgColour="3858759680"
+                   textColour="4278190080" itemColour2="3092271" itemColour="3092271"/>
+        <Component type="ScriptLabel" id="LblAttack" x="40" y="70" parentComponent="PnlEnvelope"
+                   editable="0" text="ATTACK" fontSize="8" width="100" fontName="GLOBALFONT"
+                   height="20"/>
+        <Component type="ScriptLabel" id="LblRelease" x="140" y="70" parentComponent="PnlEnvelope"
+                   editable="0" text="RELEASE" fontSize="8" width="100" fontName="GLOBALFONT"
+                   height="20"/>
+        <Component type="ScriptLabel" id="LblADSRTime" x="0" y="70" parentComponent="PnlEnvelope"
+                   editable="0" text="TIME" fontSize="8" width="60" fontName="GLOBALFONT"
+                   height="20"/>
+        <Component type="ScriptLabel" id="LblADSRTime1" x="220" y="70" parentComponent="PnlEnvelope"
+                   editable="0" text="TIME" fontSize="8" width="60" fontName="GLOBALFONT"
+                   height="20"/>
+        <Component type="ScriptSlider" id="KnobAttackTime" x="10" y="30" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
+                   numStrips="101" height="40" width="40" processorId="Table Envelope1"
+                   parameterId="Attack" middlePosition="10000.5" max="20000" useUndoManager="1"
+                   tooltip="ATTACK TIME" pluginParameterName="ATTACK TIME" parentComponent="PnlEnvelope"
+                   stepSize="1" isPluginParameter="1" showTextBox="0" scaleFactor="0.2"
+                   mode="Time" min="1" defaultValue="20" showValuePopup="Below"/>
+        <Component type="ScriptSlider" id="KnobReleaseTime" x="230" y="30" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
+                   numStrips="101" height="40" width="40" processorId="Table Envelope1"
+                   parameterId="Release" middlePosition="10000.5" max="20000" useUndoManager="1"
+                   tooltip="RELEASE TIME" pluginParameterName="RELEASE TIME" parentComponent="PnlEnvelope"
+                   stepSize="1" isPluginParameter="1" showTextBox="0" scaleFactor="0.2"
+                   mode="Time" min="1" defaultValue="20" showValuePopup="Below"/>
+        <Component type="ScriptTable" id="TableAttack" x="50" y="35" parentComponent="PnlEnvelope"
+                   processorId="Table Envelope1" width="80" height="30" customColours="1"
+                   tooltip="ATTACK CURVE"/>
+        <Component type="ScriptTable" id="TableRelease" x="150" y="35" parentComponent="PnlEnvelope"
+                   processorId="Table Envelope1" width="80" height="30" tableIndex="1"
+                   customColours="1" tooltip="RELEASE CURVE"/>
+      </Component>
+      <Component type="ScriptPanel" id="PnlGlide" x="10" y="520" parentComponent="StaticPnl1"
+                 width="220" height="200" textColour="3137049491" itemColour2="3684408"
+                 itemColour="3684408" bgColour="16777215" popupOnRightClick="0">
+        <Component type="ScriptPanel" id="Panel27" x="0" y="0" parentComponent="PnlGlide"
+                   width="220" height="20" itemColour="4278190080" itemColour2="4278190080"
+                   enabled="0" textColour="16777215" visible="0"/>
+        <Component type="ScriptLabel" id="LblGlide" x="0" y="0" parentComponent="PnlGlide"
+                   editable="0" text="G L I D E" fontSize="10" width="220" fontName="GLOBALFONT"
+                   height="20" textColour="4294671484"/>
+        <Component type="ScriptLabel" id="LblGlideFade" x="0" y="50" parentComponent="PnlGlide"
+                   editable="0" text="FADE" fontSize="8" width="60" fontName="GLOBALFONT"
+                   height="20" textColour="4294901502"/>
+        <Component type="ScriptLabel" id="LblGlideBend" x="0" y="100" parentComponent="PnlGlide"
+                   editable="0" text="BEND" fontSize="8" width="60" fontName="GLOBALFONT"
+                   height="20" textColour="4294901502"/>
+        <Component type="ScriptLabel" id="LblGlideFadeMin" x="45" y="20" parentComponent="PnlGlide"
+                   editable="0" text="MIN" fontSize="8" width="60" fontName="GLOBALFONT"
+                   height="20"/>
+        <Component type="ScriptLabel" id="LblGlideFadeMax" x="95" y="20" parentComponent="PnlGlide"
+                   editable="0" text="MAX" fontSize="8" width="60" fontName="GLOBALFONT"
+                   height="20"/>
+        <Component type="ScriptLabel" id="LblGlideFadeRatio" x="145" y="20" parentComponent="PnlGlide"
+                   editable="0" text="RATIO" fontSize="8" width="60" fontName="GLOBALFONT"
+                   height="20"/>
+        <Component type="ScriptLabel" id="LblGlideBendMin" x="45" y="130" parentComponent="PnlGlide"
+                   editable="0" text="MIN" fontSize="8" width="60" fontName="GLOBALFONT"
+                   height="20"/>
+        <Component type="ScriptLabel" id="LblGlideBendMax" x="95" y="130" parentComponent="PnlGlide"
+                   editable="0" text="MAX" fontSize="8" width="60" fontName="GLOBALFONT"
+                   height="20"/>
+        <Component type="ScriptLabel" id="LblGlideBendTime" x="145" y="130" parentComponent="PnlGlide"
+                   editable="0" text="TIME" fontSize="8" width="60" fontName="GLOBALFONT"
+                   height="20"/>
+        <Component type="ScriptSlider" id="KnobGlideFadeMin" x="45" y="30" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
+                   numStrips="101" height="70" width="70" processorId="Glide" parameterId="knbFadeMin"
+                   middlePosition="4.999" max="10000" useUndoManager="1" tooltip="GLIDE FADE MIN"
+                   pluginParameterName="GLIDE FADE MIN" parentComponent="PnlGlide"
+                   stepSize="1" isPluginParameter="1" showTextBox="0" scaleFactor="0.3"
+                   mode="Time" min="1" defaultValue="20" showValuePopup="Below"/>
+        <Component type="ScriptSlider" id="KnobGlideFadeMax" x="95" y="30" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
+                   numStrips="101" height="70" width="70" processorId="Glide" parameterId="knbFadeMax"
+                   middlePosition="4.999" max="10000" useUndoManager="1" tooltip="GLIDE FADE MAX"
+                   pluginParameterName="GLIDE FADE MAX" parentComponent="PnlGlide"
+                   stepSize="1" isPluginParameter="1" showTextBox="0" scaleFactor="0.3"
+                   mode="Time" min="1" defaultValue="20" showValuePopup="Below"/>
+        <Component type="ScriptSlider" id="KnobGlideFadeRatio" x="145" y="30" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
+                   numStrips="101" height="70" width="70" processorId="Glide" parameterId="knbFadeOut"
+                   middlePosition="0.45" useUndoManager="1" tooltip="GLIDE FADE RATIO"
+                   pluginParameterName="GLIDE FADE RATIO" parentComponent="PnlGlide"
+                   isPluginParameter="1" showTextBox="0" scaleFactor="0.3" mode="NormalizedPercentage"
+                   min="0.1" defaultValue="0.1" showValuePopup="Below"/>
+        <Component type="ScriptSlider" id="KnobGlideBendMin" x="45" y="80" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
+                   numStrips="101" height="70" width="70" processorId="Glide" parameterId="knbBendMin"
+                   middlePosition="350" useUndoManager="1" tooltip="GLIDE BEND MIN"
+                   pluginParameterName="GLIDE BEND MIN" parentComponent="PnlGlide"
+                   isPluginParameter="1" showTextBox="0" scaleFactor="0.3" mode="Discrete"
+                   defaultValue="0.1" showValuePopup="Below" max="700" suffix="cents"
+                   stepSize="1"/>
+        <Component type="ScriptSlider" id="KnobGlideBendMax" x="95" y="80" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
+                   numStrips="101" height="70" width="70" processorId="Glide" parameterId="knbBendMax"
+                   middlePosition="350" useUndoManager="1" tooltip="GLIDE BEND MAX"
+                   pluginParameterName="GLIDE BEND MAX" parentComponent="PnlGlide"
+                   isPluginParameter="1" showTextBox="0" scaleFactor="0.3" mode="Discrete"
+                   defaultValue="0.1" showValuePopup="Below" max="700" suffix="cents"
+                   stepSize="1"/>
+        <Component type="ScriptSlider" id="KnobGlideBendTime" x="145" y="80" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
+                   numStrips="101" height="70" width="70" processorId="Glide" parameterId="knbBendTm"
+                   middlePosition="0" useUndoManager="1" tooltip="GLIDE BEND TIME"
+                   pluginParameterName="GLIDE BEND TIME" parentComponent="PnlGlide"
+                   isPluginParameter="1" showTextBox="0" scaleFactor="0.3" min="-0.5"
+                   showValuePopup="Below" max="0.5" suffix="%" mode="NormalizedPercentage"/>
+        <Component type="ScriptSlider" id="KnobGlideMaxGlide" x="20" y="140" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
+                   numStrips="101" height="40" width="40" processorId="Glide" parameterId="knbMaxGlide"
+                   middlePosition="5.5" useUndoManager="1" tooltip="MAX GLIDE" pluginParameterName="MAX GLIDE"
+                   parentComponent="PnlGlide" isPluginParameter="1" showTextBox="0"
+                   scaleFactor="0.2" showValuePopup="Below" max="11" mode="Discrete"
+                   defaultValue="1" stepSize="1"/>
+        <Component type="ScriptLabel" id="LblGlideActivate" x="140" y="180" text="ENABLE"
+                   fontName="GLOBALFONT" fontSize="8" height="20" width="80" parentComponent="PnlGlide"/>
+        <Component type="ScriptButton" id="KnbGlideEnable" x="170" y="150" width="25"
+                   height="25" filmstripImage="{PROJECT_FOLDER}UD BTN1.png" scaleFactor="0.2"
+                   processorId="Glide" parameterId="Enabled" parentComponent="PnlGlide"/>
+        <Component type="ScriptLabel" id="LblGlideActivate1" x="0" y="180" text="GLIDES"
+                   fontName="GLOBALFONT" fontSize="8" height="20" width="80" parentComponent="PnlGlide"/>
+      </Component>
+      <Component type="ScriptPanel" id="PnlXY" x="1160" y="520" parentComponent="StaticPnl1"
+                 width="300" height="190" textColour="3137049491">
+        <Component type="ScriptLabel" id="TitleXY" x="0" y="0" parentComponent="PnlXY"
+                   width="300" height="20" text="XY PAD" fontName="GLOBALFONT" fontSize="10"
+                   textColour="4294671484" editable="0"/>
+        <Component type="ScriptPanel" id="Panel10" x="80" y="20" parentComponent="PnlXY"
+                   width="150" height="150" textColour="3137049491" enabled="0"/>
+        <Component type="ScriptSlider" id="padKnob1" x="360" y="0" parentComponent="PnlXY"
+                   width="60" height="50" filmstripImage="{PROJECT_FOLDER}TRANSPARENCY.png"
+                   visible="0" middlePosition="0.5" mode="NormalizedPercentage"
+                   suffix="%"/>
+        <Component type="ScriptSlider" id="padKnob2" x="360" y="110" parentComponent="PnlXY"
+                   width="60" height="50" filmstripImage="{PROJECT_FOLDER}TRANSPARENCY.png"
+                   visible="0" middlePosition="0.5" mode="NormalizedPercentage"
+                   suffix="%"/>
+        <Component type="ScriptSlider" id="padKnob3" x="600" y="0" parentComponent="PnlXY"
+                   width="60" height="50" filmstripImage="{PROJECT_FOLDER}TRANSPARENCY.png"
+                   visible="0" middlePosition="0.5" mode="NormalizedPercentage"
+                   suffix="%"/>
+        <Component type="ScriptSlider" id="padKnob4" x="600" y="110" parentComponent="PnlXY"
+                   width="60" height="50" filmstripImage="{PROJECT_FOLDER}TRANSPARENCY.png"
+                   visible="0" middlePosition="0.5" mode="NormalizedPercentage"
+                   suffix="%"/>
+        <Component type="ScriptPanel" id="XYPadPnl" x="90" y="30" parentComponent="PnlXY"
+                   width="130" height="130" allowCallbacks="Clicks, Hover &amp; Dragging"
+                   textColour="4293944677" bgColour="1442793544"/>
+        <Component type="ScriptSlider" id="knobCtrlVal1" x="10" y="10" parentComponent="PnlXY"
+                   width="60" height="60" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
+                   numStrips="101" scaleFactor="0.3" middlePosition="0.5" mode="NormalizedPercentage"
+                   suffix="%"/>
+        <Component type="ScriptSlider" id="knobCtrlVal2" x="10" y="120" parentComponent="PnlXY"
+                   width="60" height="60" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
+                   numStrips="101" scaleFactor="0.3" middlePosition="0.5" mode="NormalizedPercentage"
+                   suffix="%"/>
+        <Component type="ScriptSlider" id="knobCtrlVal3" x="230" y="10" parentComponent="PnlXY"
+                   width="60" height="60" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
+                   numStrips="101" scaleFactor="0.3" middlePosition="0.5" mode="NormalizedPercentage"
+                   suffix="%"/>
+        <Component type="ScriptSlider" id="knobCtrlVal4" x="230" y="120" parentComponent="PnlXY"
+                   width="60" height="60" filmstripImage="{PROJECT_FOLDER}UD LIGHT KNOB 2 (101).png"
+                   numStrips="101" scaleFactor="0.3" middlePosition="0.5" mode="NormalizedPercentage"
+                   suffix="%"/>
+        <Component type="ScriptLabel" id="LblXY1" x="10" y="70" parentComponent="PnlXY"
+                   width="70" height="20" fontName="GLOBALFONT" fontSize="8" text="0"/>
+        <Component type="ScriptLabel" id="LblXY2" x="10" y="100" parentComponent="PnlXY"
+                   width="70" height="20" fontName="GLOBALFONT" fontSize="8" text="0"/>
+        <Component type="ScriptLabel" id="LblXY3" x="220" y="70" parentComponent="PnlXY"
+                   width="70" height="20" fontName="GLOBALFONT" fontSize="8" text="0"/>
+        <Component type="ScriptLabel" id="LblXY4" x="220" y="100" parentComponent="PnlXY"
+                   width="70" height="20" fontName="GLOBALFONT" fontSize="8" text="0"/>
+      </Component>
+      <Component type="ScriptPanel" id="PnlRedExample" x="230" y="280" parentComponent="StaticPnl1"
+                 width="100" height="220" textColour="0" itemColour2="3684408"
+                 itemColour="3684408" borderRadius="15" visible="0">
+        <Component type="ScriptPanel" id="Panel32" x="10" y="10" parentComponent="PnlRedExample"
+                   width="80" height="200" textColour="3137049491"/>
+        <Component type="ScriptPanel" id="Panel30" x="10" y="10" parentComponent="PnlRedExample"
+                   width="80" height="20" itemColour="0" itemColour2="0" textColour="16777215"
+                   borderRadius="5">
+          <Component type="ScriptLabel" id="Label6" x="0" y="0" parentComponent="Panel30"
+                     width="80" height="20" fontName="GLOBALFONT" fontSize="10" text="O P T"
+                     textColour="4294941081"/>
+        </Component>
+      </Component>
+    </Component>
+    <Component type="ScriptPanel" id="DynamicPnl3" x="400" y="240" width="800"
+               height="300" textColour="16777215" itemColour2="0" itemColour="0"
+               parentComponent="PnlMain" visible="0">
+      <Component type="ScriptPanel" id="Panel14" x="20" y="0" parentComponent="DynamicPnl3"
+                 width="760" height="300" itemColour="4280032284" itemColour2="4280032284"
+                 textColour="0" borderRadius="14">
+        <Component type="ScriptPanel" id="Panel16" x="0" y="10" parentComponent="Panel14"
+                   width="760" height="200" textColour="3137049491" itemColour="0"
+                   itemColour2="0" borderRadius="14">
+          <Component type="ScriptFloatingTile" id="FloatingTile8" x="0" y="0" ContentType="DraggableFilterPanel"
+                     bgColour="2960685" itemColour="2147483133" itemColour2="857480220"
+                     Data="{&#13;&#10;  &quot;ProcessorId&quot;: &quot;Effect Slot5_CurveEq&quot;,&#13;&#10;  &quot;Index&quot;: -1&#13;&#10;}"
+                     width="760" height="200" itemColour3="4279045389" parentComponent="Panel16"/>
+        </Component>
+      </Component>
+    </Component>
+    <Component type="ScriptPanel" id="PnlVuMeter" x="1410" y="90" width="120"
+               height="120" textColour="4280689957" allowDragging="1" itemColour="3684408"
+               itemColour2="3107012" bgColour="0" enabled="0" borderSize="1"
+               parentComponent="PnlMain"/>
+    <Component type="ScriptPanel" id="VuMeterLeft" x="1450" y="100" width="60"
+               height="100" opaque="1" parentComponent="PnlMain"/>
+    <Component type="ScriptPanel" id="VuMeterRight" x="1410" y="100" width="60"
+               height="100" opaque="1" parentComponent="PnlMain"/>
+    <Component type="ScriptPanel" id="PnlVUHighlight" x="1420" y="100" width="100"
+               height="100" textColour="16777215" allowDragging="1" itemColour="2721402242"
+               itemColour2="1694548479" bgColour="0" enabled="0" borderRadius="0"
+               visible="0" parentComponent="PnlMain"/>
+    <Component type="ScriptImage" id="DisplayImage" x="600" y="90" width="400"
+               height="90" fileName="{PROJECT_FOLDER}DISPLAY.png" visible="0"
+               enabled="0" parentComponent="PnlMain">
+      <Component type="ScriptLabel" id="DisplayText" x="5" y="5" parentComponent="DisplayImage"
+                 width="390" height="80" text="DISPLAYTESTDISPLAYTESTDISPLAYTESTDISPLAYTESTDISPLAYTESTDISPLAYTESTDISPLAYTESTDISPLAYTESTDISPLAYTESTDISPLAYTEST"
+                 fontName="LCD DISPLAY" alignment="topLeft" fontSize="24" textColour="4294946992"
+                 fontStyle="Regular" visible="0"/>
+    </Component>
+    <Component type="ScriptFloatingTile" id="FltTooltip" x="580" y="110" ContentType="TooltipPanel"
+               bgColour="3684408" itemColour="16777215" itemColour2="4294951115"
+               Data="{&#13;&#10;}" Font="LCD DISPLAY" width="760" height="30"
+               textColour="4294932343" FontSize="24" parentComponent="PnlMain"/>
+    <Component type="ScriptLabel" id="LblLedValue" x="880" y="120" width="114"
+               height="64" text="" editable="0" parentComponent="PnlMain"/>
+    <Component type="ScriptPanel" id="presetPnl" x="410" y="200" width="780"
+               height="340" textColour="16777215" visible="0" parentComponent="PnlMain">
+      <Component type="ScriptFloatingTile" id="FloatingTile3" x="0" y="0" parentComponent="presetPnl"
+                 ContentType="PresetBrowser" bgColour="4160749568" itemColour="4294967295"
+                 itemColour2="4294967295" Data="{&#13;&#10;  &quot;ShowSaveButton&quot;: true,&#13;&#10;  &quot;ShowExpansionsAsColumn&quot;: false,&#13;&#10;  &quot;ShowFolderButton&quot;: true,&#13;&#10;  &quot;ShowNotes&quot;: true,&#13;&#10;  &quot;ShowEditButtons&quot;: true,&#13;&#10;  &quot;ShowFavoriteIcon&quot;: true,&#13;&#10;  &quot;NumColumns&quot;: 3,&#13;&#10;  &quot;ColumnWidthRatio&quot;: [&#13;&#10;    0.3333333333333333,&#13;&#10;    0.3333333333333333,&#13;&#10;    0.3333333333333333&#13;&#10;  ]&#13;&#10;}"
+                 width="780" height="340" Font="GLOBALFONT" FontSize="8" textColour="4294677395"/>
+      <Component type="ScriptButton" id="HidePresetBrowser" x="290" y="20" parentComponent="presetPnl"
+                 width="200" height="50" text="CLOSE" filmstripImage="{PROJECT_FOLDER}TRANSPARENCY.png"
+                 saveInPreset="0" defaultValue="1" visible="0" enabled="0">
+        <Component type="ScriptLabel" id="Label3" x="0" y="0" parentComponent="HidePresetBrowser"
+                   width="200" height="50" text="CLOSE BROWSER" editable="0" fontName="GLOBALFONT"/>
+      </Component>
+    </Component>
+    <Component type="ScriptPanel" id="PnlCmbZoom" x="0" y="20" width="160" height="25"
+               textColour="4278190080" itemColour="4278190080" itemColour2="4278190080"
+               parentComponent="PnlMain">
+      <Component type="ScriptPanel" id="PnlFltZoom" x="5" y="3" parentComponent="PnlCmbZoom"
+                 width="50" height="20" textColour="4294677395" itemColour2="4278190080"
+                 itemColour="4278190080" bgColour="16777215" borderRadius="4">
+        <Component type="ScriptFloatingTile" id="FltZoomUI" x="-65" y="-20" ContentType="CustomSettings"
+                   bgColour="4278190080" itemColour="4294951115" itemColour2="4294951115"
+                   Data="{&#13;&#10;  &quot;Driver&quot;: false,&#13;&#10;  &quot;Device&quot;: false,&#13;&#10;  &quot;Output&quot;: false,&#13;&#10;  &quot;BufferSize&quot;: false,&#13;&#10;  &quot;SampleRate&quot;: false,&#13;&#10;  &quot;GlobalBPM&quot;: false,&#13;&#10;  &quot;StreamingMode&quot;: false,&#13;&#10;  &quot;ScaleFactor&quot;: true,&#13;&#10;  &quot;VoiceAmountMultiplier&quot;: false,&#13;&#10;  &quot;ClearMidiCC&quot;: false,&#13;&#10;  &quot;SampleLocation&quot;: false,&#13;&#10;  &quot;DebugMode&quot;: false,&#13;&#10;  &quot;ScaleFactorList&quot;: [&#13;&#10;    0.5,&#13;&#10;    0.6,&#13;&#10;    0.7,&#13;&#10;    0.8,&#13;&#10;    0.9,&#13;&#10;    1.0,&#13;&#10;    1.5,&#13;&#10;    2.0&#13;&#10;  ]&#13;&#10;}"
+                   Font="LCD DISPLAY" width="180" height="45" FontSize="8" parentComponent="PnlFltZoom"
+                   itemColour3="16777215" enabled="0"/>
+      </Component>
+      <Component type="ScriptLabel" id="LblZoom" x="60" y="-2" parentComponent="PnlCmbZoom"
+                 width="100" height="30" fontName="GLOBALFONT" text="ZOOM UI"
+                 itemColour2="1118481"/>
+    </Component>
+  </Component>
+  <Component type="ScriptSlider" id="KnbZoom" x="1530" y="830" width="70"
+             height="70" dragDirection="Horizontal" defaultValue="1" middlePosition="1.25"
+             min="0.5" max="2" numStrips="101" showTextBox="0" filmstripImage="{PROJECT_FOLDER}UD AUDIO ZOOM ARROW KNB3.png"/>
+  <Component type="ScriptLabel" id="MARKER LABEL" x="1320" y="250" bgColour="4290379520"
+             textColour="4278190080" text="MARKER! " fontName="LCD DISPLAY"
+             width="90" height="30" visible="0"/>
+  <Component type="ScriptedViewport" id="PROGRESS TRACKER" x="0" y="0" width="190"
+             height="900" useList="1" items="IN PROGRESS:&#10;&#10;tabs&#10;master fx&#10;fix naming convention&#10;check dynamic pnl3 and rename&#10;&#10;TO DO:&#10;&#10;fix character spacing of tooltips&#10;macro controls&#10;multiple filter&#10;custom preset browser&#10;env switch for adsr etc&#10;xy pad connection and macro?&#10;fix keyboard spacing"
+             bgColour="1428958252" itemColour2="4227836072" visible="0"/>
+</ContentProperties>
